@@ -1,0 +1,60 @@
+/* BASIC STYLES HERE */
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.fit-screen {
+  height: 100vh;
+}
+
+.gift {
+  height: 30vh;
+}
+
+.card {
+  color: whitesmoke;
+}
+
+.gift-img {
+  height: 20vh;
+  width: 20vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#giftsArea {
+  height: 90.2vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* SECTION scrollbar */
+#giftsArea::-webkit-scrollbar {
+  border-radius: 0 5px 5px 0;
+}
+
+#giftsArea::-webkit-scrollbar-button {
+  display: none;
+}
+
+#giftsArea::-webkit-scrollbar-track {
+  background: #E8E8E8;
+  border-radius: 0 5px 5px 0;
+}
+
+
+#giftsArea::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+
+#giftsArea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* !SECTION */
