@@ -17,6 +17,11 @@ input {
 
 .card {
   color: whitesmoke;
+  background-color: #12a0cb;
+}
+
+.btn-primary {
+  background-color: #12a0cb;
 }
 
 .gift-img {
@@ -24,6 +29,10 @@ input {
   width: 20vh;
   overflow: hidden;
   object-fit: cover;
+}
+
+.bg-green {
+  background-color: #37663C;
 }
 
 #giftsArea {

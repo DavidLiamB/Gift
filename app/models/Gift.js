@@ -12,7 +12,7 @@ export class Gift {
     if (this.opened) {
       return `
       <div class="col-12 col-md-6 col-lg-4 mb-1">
-      <div class="p-1 gift d-flex  align-items-center justify-content-center flex-column bg-info card">
+      <div class="p-1 gift d-flex  align-items-center justify-content-center flex-column card">
         <img class="gift-img"
           src="${this.url}"
           alt="">
@@ -23,7 +23,7 @@ export class Gift {
     }
     return `
     <div class="col-12 col-md-6 col-lg-4 mb-1">
-    <div onclick="app.GiftsController.openCloseGift('${this.id}')" role="button" class="p-1 gift d-flex align-items-center justify-content-center bg-info card">
+    <div onclick="app.GiftsController.openCloseGift('${this.id}')" role="button" class="p-1 gift d-flex align-items-center justify-content-center card">
       <p>${this.tag}</p>
     </div>
     </div>
